@@ -1,0 +1,293 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 0, 0);
+    overflow-x: hidden;
+}
+
+.nav .navpart1 {
+    list-style-type: none;
+    display: inline;
+}
+
+.nav .navpart1 ul {
+    margin: 5px;
+    display: inline;
+    margin: 25px;
+}
+
+.nav .navpart1 li {
+    display: inline;
+    float: left;
+}
+
+.nav .navpart2 {
+    display: inline;
+}
+
+.nav .navpart2 ul {
+    margin: 5px;
+    display: inline;
+    margin: 25px;
+}
+
+.nav .navpart2 li {
+    display: inline;
+    float: right;
+}
+
+.nav img {
+    margin: 7px;
+    height: 30px;
+    width: 30px;
+}
+
+#tooltip {
+    visibility: hidden;
+    margin-top: 40px;
+    margin-left: -70px;
+    width: 120px;
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 1;
+}
+
+#phone:hover #tooltip {
+    visibility: visible;
+}
+
+
+.aboutme {
+    color: #fff;
+    word-wrap: wrap;
+
+}
+
+.name h1 {
+    font-family: 'Tilt Prism', cursive;
+    position: absolute;
+    display: block;
+    margin-left: 20%;
+    margin-top: -10px;
+    font-weight: bolder;
+    font-size: 110px;
+    color: #c09797;
+
+}
+
+.me-biker img {
+    position: absolute;
+    /* margin-left: 790px; */
+    height: 450px;
+    width: 350px;
+    animation-name: biker-me;
+    animation-duration: 2s;
+    animation-direction: normal;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+
+
+}
+/* 
+@keyframes biker-me {
+    0% {
+        transform: translateX(50px);
+    }
+
+    20% {
+        transform: translateX(200px);
+    }
+
+    40% {
+        transform: translateX(350px);
+    }
+
+    60% {
+        transform: translateX(500px);
+    }
+
+    80% {
+        transform: translateX(650px);
+    }
+
+    100% {
+        transform: translateX(900px);
+    }
+} */
+
+div .head_journey {
+    color: white;
+    font-family: 'Gruppo', sans-serif;
+    font-size: 40px;
+    margin-top: 250px;
+    margin-bottom: -450px;
+    margin-left: -100px;
+    font-size: 50px;
+    color: #d2adad;
+    text-align: center;
+}
+
+.journey {
+    margin-left: 20%;
+    margin-top: -70px;
+    height: 100px;
+    width: 900px;
+}
+
+.journey #home_pic {
+    height: 100px;
+    width: 100px;
+    /* margin-top: 450px; */
+    margin-left: 10px;
+}
+
+#home {
+    color: white;
+    font-family: 'Reenie Beanie', cursive;
+    font-size: medium;
+    margin-left: 10px;
+    position: relative;
+    display: block;
+    margin-top: 600px;
+    margin-left: 20px;
+}
+
+.journey #dash-1 {
+    color: white;
+    font-size: larger;
+    margin-top: -55px;
+    margin-left: 105px;
+    font-family: 'Reenie Beanie', cursive;
+    font-weight: bolder;
+}
+
+.journey #school_pic {
+    height: 100px;
+    width: 100px;
+    margin-left: 210px;
+    margin-top: -170px;
+}
+
+#school {
+    margin-top: -130px;
+    color: white;
+    font-family: 'Reenie Beanie', cursive;
+    margin-left: 170px;
+}
+
+#dash-2 {
+    color: white;
+    font-size: larger;
+    margin-top: 55px;
+    margin-left: 305px;
+    font-family: 'Reenie Beanie', cursive;
+    font-weight: bolder;
+}
+
+#redbubble_pic {
+    height: 80px;
+    width: 80px;
+    margin-left: 420px;
+    margin-top: -150px;
+}
+
+#fiverr_pic {
+    height: 50px;
+    width: 50px;
+    margin-left: 500px;
+    margin-top: -110px;
+}
+
+#dash-3 {
+    color: white;
+    font-size: larger;
+    margin-top: -45px;
+    margin-left: 550px;
+    font-family: 'Reenie Beanie', cursive;
+    font-weight: bolder;
+}
+
+#college_pic {
+    height: 100px;
+    width: 100px;
+    margin-left: 630px;
+    margin-top: -170px;
+}
+
+#college {
+    margin-top: -130px;
+    color: white;
+    font-family: 'Reenie Beanie', cursive;
+    margin-left: 570px;
+}
+
+.full_stack {
+    color: white;
+    font-family: 'Gruppo', sans-serif;
+    margin-top: 390px;
+    
+}
+
+.full_stack h1 {
+    text-align: center;
+    color: #c09797;
+    font-size: 25px;
+}
+
+
+
+@keyframes animate {
+    0% {
+        opacity: 0.2;
+    }
+
+    50% {
+        opacity: 0.7;
+    }
+
+    100% {
+        opacity: 0.2;
+    }
+}
+
+#html {
+    margin-top: 50px;
+    margin-left: 350px;
+    width: 100px;
+    height: 150px;
+    animation: animate 1.5s linear infinite;
+}
+
+#css{
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 250px;
+    height: 250px;
+    animation: animate 1.5s linear infinite;
+}
+
+
+#bootstrap{
+    margin-top: 150px;
+    margin-left: 50px;
+    width: 100px;
+    height: 145px;
+    animation: animate 1.5s linear infinite;
+}
+#js{
+    margin-top: 70px;
+    margin-left: 50px;
+    width: 100px;
+    height: 140px;
+    animation: animate 1.5s linear infinite;
+}
+.wordpress h1{
+    color: #c09797;
+    text-align: center;
+    font-family: 'Gruppo', sans-serif;
+    font-size: 25px;
+}
