@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap" rel="stylesheet">
+    <title>Fill The Funny Forms To Laugh</title>
+
+</head>
+<style>
+    h1 {
+        font-family: 'Londrina Outline', cursive;
+        font-size: 100px;
+        text-align: center;
+        color: #fff;
+    }
+
+    .form-template {
+        /* text-align: center; */
+        position: absolute;
+        margin-left: 50%;
+
+        color: white;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    input[type=text] {
+        margin-top: 5px;
+        width: 250px;
+        height: 35px;
+        border-bottom: 2px solid rgb(219, 166, 166);
+        border-top: none;
+        border-left: none;
+        border-right: none;
+    }
+
+    img {
+        height: 600px;
+        margin-top: -65px;
+        position: absolute;
+    }
+
+    input[type=submit] {
+        color: rgb(152, 100, 100);
+        background-color: white;
+        padding: 5px;
+        border: 2px solid rgb(152, 100, 100);
+        width: 200px;
+        text-align: center;
+        border-radius: 5px;
+        height: 55px;
+        font-size: x-large;
+        cursor: pointer;
+    }
+    #o{
+        width: 200px;
+        height: 5px;
+        padding: 25px;
+        color: black;
+    }
+    #o-1{
+        width: 200px;
+        height: 5px;
+        padding: 25px;
+        color: black;
+    }
+</style>
+
+<body style="background-color: rgb(152, 100, 100);">
+    <h1>CHILL AND ENJOY</h1>
+    <img src="cute.png" alt="">
+
+    <div class="form-template">
+        <form action="#" method="get">
+            <div class="form">
+                <label for="head">Full Name</label><br>
+                <input type="text">
+                <input type="text"><br><br><br>
+
+                <!-- select -->
+
+                <label for="location" id="location">Where You Are From?</label><br>
+                <select name="o" id="o">
+                    <option value="India" id="o-1" selected>India</option>
+                    <option value="outside" id="o-1">Outside India</option>
+                </select> <br><br><br>
+
+                <!-- radio button -->
+
+                <label for="location" id="location">Where You Want To Go</label><br>
+                <input type="radio" name="north-india" id="north-india">
+                <label for="north-india">North India</label><br>
+                <input type="radio" name="South-india" id="South-india">
+                <label for="South-india">South India</label><br>
+                <input type="radio" name="North-East" id="North-East">
+                <label for="North-East">North East</label><br>
+                <input type="radio" name="south-east" id="south-east">
+                <label for="south-east">South East</label><br><br><br>
+
+                <!-- checkbox -->
+
+                <label for="location" id="location">Best Season For You</label><br>
+                <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                <label for="season"> Summer </label><br>
+                <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                <label for="season">Spring </label><br>
+                <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                <label for="season"> Winter </label><br><br><br>
+
+                <!-- submit -->
+                <input type="submit" value="Submit">
+
+
+
+
+            </div>
+    </div>
+</body>
+
+</html>
