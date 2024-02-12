@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-shadow: 0px 0px 2px rgb(176, 187, 254), 0px 0px 4px rgb(190, 209, 252), 0px 0px #ffc8dd, 0px 0px 4px #ffc8dd;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+h2 {
+    text-shadow: 0px 0px 2px rgb(176, 187, 254), 0px 0px 4px rgb(190, 209, 252), 0px 0px #ffc8dd, 0px 0px 4px #ffc8dd;
+    color: white;
+    text-align: center;
+}
+
+.textbox {
+    box-shadow: 2px 2px 2px 2px rgb(214, 207, 207);
+    margin-left: 100px;
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    top: 25px;
+    left: 0;
+    right: 125px;
+    clear: both;
+    border-radius: 25px;
+    color: white;
+
+}
+
+.textbox p {
+    color: black;
+    font-size: 15px;
+    padding: 50px 100px 100px 100px;
+    width: 300px;
+    position: relative;
+    text-align: center;
+    display: block;
+}
+
+.end {
+    color: #ffffff;
+    font-size: 100px;
+    text-shadow: -1px 0px #cdb4db, 0px 1px #cdb4db, 1px 0px #cdb4db, 0px -1px #cdb4db;
+    margin-top: -90px;
+}

@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.circle-external {
+    border-radius: 50%;
+    border: solid 5px yellow;
+    box-shadow: 1px 1px 1px inset rgba(236, 236, 210, 0.331), 1px 1px 1px inset rgba(236, 236, 210, 0.331), 1px 1px 1px inset rgba(236, 236, 210, 0.331), 1px 1px 1px inset rgba(236, 236, 210, 0.331), 1px 1px 1px inset rgba(236, 236, 210, 0.331), 1px 1px 1px inset rgba(236, 236, 210, 0.331);
+    height: 100px;
+    width: 100px;
+    margin: 50px;
+    /* transform: rotate(90deg);  */
+    animation-name: rotation;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+}
+
+@keyframes rotation {
+    0% {
+        border: solid 5px yellow;
+        transform: rotate(90deg);
+    }
+
+    50% {
+        border: solid 5px rgb(236, 197, 255);
+        transform: rotate(180deg);
+    }
+
+    100% {
+        border: solid 5px rgb(165, 251, 222);
+        transform: rotate(270deg);
+    }
+
+}
+
+.circle-internal {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border-color: darkblue;
+    margin-top: 25px;
+
+}
+
+.circle-internal h2 {
+    color: white;
+    text-align: center;
+}
