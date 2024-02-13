@@ -17,7 +17,7 @@ This repository includes my portfolio and all the projects I did while learning 
 
 ## HTML CSS JS Projects 
 
-- [Loader animations](https://rohini-ranjanr.github.io/HTML%20CSS%20Js%20projects/animations/loading.animation/loading.a/loading.html)
+- [Loader animations](https://rohini-ranjanr.github.io/HTML%20CSS%20Js%20projects/animations/loading.animation/loading.a/loading.html)(real time link) animated loader with a black background and loading written on it) [code](https://github.com/rohini-ranjanR/rohini-ranjanR.github.io/tree/main/HTML%20CSS%20Js%20projects/animations/loading.animation/loading.a/loading.html)
 
   
 ## Python
