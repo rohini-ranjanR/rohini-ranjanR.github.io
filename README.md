@@ -20,7 +20,8 @@ This repository includes my portfolio and all the projects I did while learning 
 - [Loader animations](https://rohini-ranjanr.github.io/HTML%20CSS%20Js%20projects/animations/loading.animation/loading.a/loading.html)(real time link) animated loader with a black background and loading written on it) [code](https://github.com/rohini-ranjanR/rohini-ranjanR.github.io/tree/main/HTML%20CSS%20Js%20projects/animations/loading.animation/loading.html)
 - [Happy your day](https://rohini-ranjanr.github.io/HTML%20CSS%20Js%20projects/animations/loading.animation/loader/loader.html) (real time link) animated loader wishinga happy day [code](https://github.com/rohini-ranjanR/rohini-ranjanR.github.io/tree/main/HTML%20CSS%20Js%20projects/projects/animations/loading.animation/loader/loader.html)
 - [Text and Use of shadow](https://rohini-ranjanr.github.io/HTML%20CSS%20Js%20projects/web/text/text/text.html) (real time link) use of shadow to give effect to any text with some colors. [code](https://github.com/rohini-ranjanR/rohini-ranjanR.github.io/tree/main/HTML%20CSS%20Js%20projects/web/text/text/text.html).
+- [A Text Box](https://rohini-ranjanr.github.io/HTML%20CSS%20Js%20projects/web/text/text-effect/text.html) (real time link) a text box with use of shadow with text. [code](https://rohini-ranjanr.github.io/tree/main/HTML%20CSS%20Js%20projects/web/text/text-effect/text.html)
 
-  
+
 ## Python
 - [Company name from url](python/company_name_from_url/program.output.png)(screenshot of program output) - This project is based on concept of string slice, in, not in, and if else where the program gives company name based on url of the website. [Code](python/company_name_from_url/src.py).
