@@ -8,8 +8,6 @@ This repository includes my portfolio and all the projects I did while learning 
 
 ## CSS
 - [Calculator Interface](https://rohini-ranjanr.github.io/CSS%20Projects/calculator/home.html)(real time link) - Calculator interface mostly with CSS. [Code](https://github.com/rohini-ranjanR/rohini-ranjanR.github.io/tree/main/CSS%20Projects/calculator).
-- [Loader animations](https://rohini-ranjanr.github.io/CSS%20Projects/animations/loading.animation/loading.a/loading.html)(real time link) animated loader with a black background and loading written on it) [code](https://rohini-ranjanr.github.io/CSS%20Projects/tree/main/CSS%20Projects/animations/loading.animation/loading.html)
-- [A Circular Disc](https://rohini-ranjanr.github.io/CSS%20Projects/animations/progress-bar/progress.html) (real time link) A Circular disc. [code](https://rohini-ranjanr.github.io/tree/main/HTML%20CSS%20Js%20projects/animations/progress-bar/progress.html)
 
 
 ## JavaScript
