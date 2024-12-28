@@ -211,3 +211,6 @@ body{
     height: 50px;
     width: 50px;
 }
+.desc li a{
+    color: white;
+}
