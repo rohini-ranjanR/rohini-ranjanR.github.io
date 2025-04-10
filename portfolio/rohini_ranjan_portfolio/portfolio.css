@@ -51,8 +51,9 @@ body{
 }
 .profile-card .profile-pic img{
     border-radius: 50%;
-    height: 250px;
-    width: 250px;
+    border-color: 2rem solid white;
+    height: 200px;
+    width: 200px;
 }
 .profile-card .profile_details{
     display: flex;
@@ -144,13 +145,15 @@ body{
     font-weight: 800;
     font-size: 15px;
 }
+.profile-info{
+    margin-top: -32.7rem;
+}
 
 .about{
     background-color: #111;
     max-width: 800px;
     padding: 2rem 3rem;
     border-radius: 10px;
-    margin-top: -125px;
 }
 
 .about h1{
@@ -179,14 +182,15 @@ body{
     margin: 1.5rem 0;   
 }
 .work{
-    margin-top: 60px;
+    margin-top: -34rem;
     background-color: #111;
-    max-width: 800px;
+    width: 60%;
     padding: 2rem 3rem;
     border-radius: 10px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto;
+    margin-left: 480px;
+    /* grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto; */
 }
 .work .workbox{
     display: flex;
@@ -197,7 +201,7 @@ body{
     margin: 1rem;
 }
 .work .workbox .desc{
-    width: 75%;
+    width: 87%;
     color: #555;
 }
 .work .workbox .desc h3{
@@ -210,7 +214,19 @@ body{
 .work .workbox .icon img{
     height: 50px;
     width: 50px;
+    /* padding-right: 10px; */
 }
 .desc li a{
+    color: white;
+}
+
+.work h1{
+    color: #f2f2f2;
+    margin-bottom: 1.1rem;
+    position: relative;
+    display: inline-block;
+    font-size: 3.5rem;
+}
+.icon img{
     color: white;
 }
