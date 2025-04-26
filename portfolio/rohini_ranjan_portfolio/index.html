@@ -1,112 +1,317 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="portfolio.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Rohini Ranjan Portfolio</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#home" class="logo">Rohini <span>Ranjan</span></a>
+      <i class="bx bx-menu" id="menu-icon"></i>
+      <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rohini Ranjan</title>
-    <link rel="stylesheet" href="portfolio.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
-</head>
+    <section class="home" id="home">
+      <div class="home-content">
+        <h1>Hi, It's <span>Rohini</span></h1>
+        <h3 class="text-animation">I'm a <span></span></h3>
+        <p>
+            I’m a passionate learner with a focus on data analytics, data science, website development, quality assurance, and UI/UX design. I use tools like Python, R, SQL, and Tableau for data analysis, and TensorFlow and Scikit-learn for machine learning. In web development, I work with HTML, CSS, JavaScript, React, Next.js, and Tailwind CSS, while also leveraging Figma for design. I ensure high-quality work with Jest and Cypress for testing. I’m always eager to learn new technologies to create user-friendly and impactful digital experiences.
+        </p>
+        <div class="social-icons">
+          <a href="https://www.linkedin.com/in/rohini-ranjan/"
+            ><i class="bx bxl-linkedin"></i
+          ></a>
+          <a href="https://github.com/rohini-ranjanR"
+            ><i class="bx bxl-github"></i
+          ></a>
+          <a href="https://www.behance.net/rohiniranjan1"
+            ><i class="bx bxl-behance"></i
+          ></a>
+        </div>
+        <div class="btn-group">
+          <a href="#contact" class="btn">Hire</a>
+        </div>
+      </div>
+      <div class="home-img">
+        <img src="profile.png" alt="" />
+      </div>
+    </section>
 
-<body>
-    <div class="container">
-        <div class="profile-card">
-            <div class="profile-pic">
-                <img src="profile.jpg" alt="user_profile">
-            </div>
-            <div class="profile_details">
-                <div class="intro">
-                    <h2>Rohini Ranjan</h2>
-                    <h4>Full Stack Developer|UX/UI Designer</h4>
-                    <div class="social">
-                        <a href="https://www.linkedin.com/in/rohini-ranjan/" target="_blank"><i class="fab fa-linkedin"
-                                style="color: var(--light-purple);"></i></a>
-                        <a href="https://github.com/rohini-ranjanR" target="_blank"><i class="fab fa-github"
-                                style="color: var(--light-purple);"></i></a>
-                        <a href="https://www.behance.net/rohiniranjan1" target="_blank"><i class="fab fa-behance"
-                                style="color: var(--light-purple);"></i></a>
-                        <a href="https://x.com/RohiniRanjan8" target="_blank"><i class="fab fa-x"
-                                style="color: var(--light-purple);"></i></a>
-                    </div>
-                </div>
-
-                <div class="contact-info">
-
-                    <div class="row">
-                        <div class="icon">
-                            <i class="fa fa-map-marker" style="color: var(--light-purple);"></i>
-                        </div>
-                        <div class="content">
-                            <span>Location</span>
-                            <h5>Delhi, India</h5>
-                        </div>
-                    </div>
-                </div>
-
-                <button class="download-btn"><a href="Rohini Ranjan.pdf" download><i class="fa fa-download"></i>Download
-                        CV</button></a>
-            </div>
+    <section class="experience" id="experience">
+      <h2 class="heading">Experience</h2>
+      <div class="timeline-items">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">Aug 2024 - Apr 2025</div>
+          <div class="timeline-content">
+            <h3>Kajkarma - Web Developer (Full Time)</h3>
+            <p>
+              I contributed to both its design and functionality, ensuring the
+              site was responsive across all devices for a seamless user
+              experience. I assisted in streamlining the recruitment process by
+              sourcing candidates, scheduling interviews, and maintaining
+              records to support the HR team. I also played a key role in
+              monitoring and managing weekly goals for different teams, ensuring
+              that tasks aligned with organizational objectives and were
+              delivered on time. Additionally, I worked on enhancing the
+              website's performance and responsiveness, addressing any technical
+              issues and improving accessibility for users. Throughout, I
+              collaborated with cross-functional teams to ensure smooth
+              operations and alignment of project deliverables.
+            </p>
+          </div>
         </div>
 
-        <!-- about section -->
-        <div class="profile-info">
-            <div class="about">
-                <h1>About Me</h1>
-                <p>As a final-year B.Tech student, I enjoy solving tough problems and making critical decisions using data. My studies and practical projects have provided me with a solid base in data science, analytics, machine learning.</p>
-                <p>I am good at data analysis, making charts, and using machine learning methods. I know how to use tools and programming languages like Python, SQL, and Tableau. I enjoy finding trends, creating predictive models, and getting useful information from data. I do well in places where I can mix thinking analytically with technical skills.</p>
-            </div>
-            <!-- skills -->
-            <div class="work">
-                <div class="workbox">
-                    <div class="icon">
-                        <img src="image/datascience.svg" alt="data_analytics">
-                    </div>
-                    <div class="desc">
-                        <h3>Data Analytics Projects</h3>
-                        <p><li><a href="#">Sales Insights/Analysis</a></li>
-                          
-                        </p>
-                    </div>
-                </div>
-
-            </div>
-
-
-            <div class="workbox">
-                <div class="icon">
-                    <img src="image/full_stack_icon.png" alt="data_analytics">
-                </div>
-                <div class="desc">
-                    <h3>Full Stack Project</h3>
-                    <p>
-                        <li><a href="#" target="_blank">Sales
-                                Insights/Analysis</a></li>
-                    <p>
-                        <li><a href="#">Sales Insights/Analysis</a></li>
-                    </p>
-                </div>
-
-            </div>
-
-            <div class="workbox">
-                <div class="icon">
-                    <img src="image/data_science_icon.svg" alt="">
-                </div>
-                <div class="desc">
-                    <h3>Data Science Projects</h3>
-                    <p>
-                        <li><a href="#" target="_blank">Sales
-                                Insights/Analysis</a></li>
-                    <p>
-                        <li><a href="#">Sales Insights/Analysis</a></li>
-                    </p>
-                </div>
-
-            </div>
-
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">Sep 2024 - Dec 2024</div>
+          <div class="timeline-content">
+            <h3>iGlobal.services - Web and AI Developer</h3>
+            <p>
+              I was responsible for designing, developing, and maintaining
+              responsive websites to ensure an optimal user experience and
+              smooth functionality. I managed social media accounts, creating
+              and scheduling engaging content that boosted brand visibility and
+              audience interaction. Additionally, I developed and implemented
+              automated workflows to enhance operational efficiency, reducing
+              manual effort. I monitored website and social media performance
+              using tools like Google Analytics, providing actionable insights
+              to drive traffic and improve engagement. I also collaborated with
+              cross-functional teams to ensure website updates and social media
+              campaigns aligned with business goals. To maintain a cohesive
+              brand image, I designed graphics, wrote copy, and curated
+              multimedia assets for various digital platforms.
+            </p>
+          </div>
         </div>
-        <script src="portfolio.js"></script>
-</body>
 
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">Jun 2024 - Dec 2024</div>
+          <div class="timeline-content">
+            <h3>Swalook - Product Development Intern</h3>
+            <p>
+              I designed and developed a mobile application using Flutter Flow,
+              ensuring it was user-friendly with seamless functionality. I also
+              created a custom CRM-based website, streamlining customer
+              relationship management and data handling. Additionally, I worked
+              on building and optimizing a WordPress website, integrating key
+              features to enhance user experience and performance. Throughout my
+              internship, I collaborated closely with cross-functional teams,
+              gathering feedback and implementing updates to align with business
+              goals. My focus was on delivering responsive and intuitive
+              designs, improving usability, and ensuring customer satisfaction
+              across various digital platforms.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">Aug 2024 - Oct 2024</div>
+          <div class="timeline-content">
+            <h3>APPNEURAL - Website Developer Intern</h3>
+            <p>
+              I worked as a website developer, where I focused on building
+              websites for clients from the ground up. I was responsible for
+              creating functional, user-friendly websites that met client
+              requirements. My work involved ensuring smooth performance,
+              troubleshooting issues, and optimizing the site for better
+              usability and overall user experience. I also collaborated closely
+              with clients to understand their needs and bring their vision to
+              life through custom-built websites.
+            </p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">Aug 2023 - Sep 2023</div>
+          <div class="timeline-content">
+            <h3>G4U BRANDS - Website Developer Intern</h3>
+            <p>
+              I handled website maintenance by fixing minor bugs to ensure
+              smooth functionality and a better user experience. I also improved
+              security by addressing vulnerabilities, which helped build trust
+              with users. I designed and launched an affiliation program for B2B
+              customers to foster partnerships and expand our reach. Using the
+              Yoast plugin, I optimized the site for SEO to boost visibility and
+              organic traffic. Additionally, I monitored indexing to ensure the
+              site was easily discoverable and ranked higher on search engines.
+            </p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">Feb 2023 - Aug 2023</div>
+          <div class="timeline-content">
+            <h3>eBiz Global Group - Website Develoer Intern</h3>
+            <p>
+              I optimized the website for smooth performance, fixing bugs and
+              improving user experience. I updated content to keep it relevant
+              and engaging for our audience. Using Elementor, I designed a
+              dynamic footer and carousel to enhance the site's look. I also
+              ensured all links were working properly, boosting SEO.
+              Additionally, I created clear, engaging content that effectively
+              communicated the brand's values and helped increase user
+              engagement.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects" id="projects">
+      <h2 class="heading">Projects</h2>
+      <div class="project-container">
+        <div class="project-box">
+          <div class="project-info">
+            <h4>AI Career Coach - Full Stack Project</h4>
+            <p>
+                AI Career Coach helps students with career guidance, offering quizzes, industry insights, and tools for creating resumes and cover letters. Built with Next.js, Tailwind CSS, Gemini AI, Prisma, Neon, Clerk, and Shadcn UI
+            </p>
+            <div><a href="https://github.com/rohini-ranjanR/rohini-ranjanR.github.io/tree/main/portfolio/rohini_ranjan_portfolio/ai_career_coach">Source Code</a> <a href="#">Live Project</a></div>
+          </div>
+        </div>
+
+        <div class="project-box">
+          <div class="project-info">
+            <h4>Sales Insights - Data Analytics Project</h4>
+            <p>
+                This involved data cleaning, transformation, and visualization to create an interactive dashboard for analyzing sales trends. By applying time series analysis, I provided sales forecasts and actionable insights to help businesses optimize strategies and improve performance.
+            </p>
+            <div><a href="https://github.com/rohini-ranjanR/rohini-ranjanR.github.io/blob/main/portfolio/rohini_ranjan_portfolio/data_analytics_projects/sales_insight.html">Source Code</a> <a href="data_analytics_projects/sales_insight.html">Live Project</a></div>
+          </div>
+        </div>
+
+        <!-- <div class="project-box">
+          <div class="project-info">
+            <h4>Home Prices - Data Analytics Project</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+              eaque dicta officiis. In et, cupiditate inventore unde earum quas
+              assumenda eius mollitia illo. Vel?
+            </p>
+            <div><a href="#">Source Code</a> <a href="#">Live Project</a></div>
+          </div>
+        </div> -->
+
+        <!-- <div class="project-box">
+          <div class="project-info">
+            <h4>UI Designes</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+              eaque dicta officiis. In et, cupiditate inventore unde earum quas
+              assumenda eius mollitia illo. Vel?
+            </p>
+            <div><a href="#">Source Code</a> <a href="#">Live Project</a></div>
+          </div>
+        </div> -->
+      </div>
+    </section>
+
+    <section class="skills" id="skills">
+      <div class="skills-box">
+        <h2 class="heading">Skills & Certificates</h2>
+        <div class="wrapper">
+           
+          <div class="skills-item">
+            <img src="image/dataengineering.svg" alt="" />
+            <h2> <a href="https://www.udemy.com/certificate/UC-d930e706-f459-4ac8-9f93-e45253cdd17b/">Data Engineering</a></h2>
+            <div class="skills-lists"><h5>SQL, pyspark, python, Postgres, Pandas, GCP, Big Data, Data Lakes, ETL, Hadoop </h5></div>
+            <p>
+                I gained practical experience working with key tools and technologies used in data engineering. I learned how to efficiently handle data using SQL and Python, processed large datasets using PySpark, and worked with databases like Postgres. I also explored data storage and management techniques with Big Data technologies, Data Lakes, and Hadoop. Additionally, I got hands-on experience with cloud platforms such as GCP to implement ETL processes and manage data workflows. This course equipped me with the skills to build robust data pipelines and perform data engineering tasks at scale.
+            </p>
+          </div>
+
+          <!-- <div class="skills-item">
+            <img src="image/fullstack.svg" alt="" />
+            <h2><a href="https://www.udemy.com/certificate/UC-d930e706-f459-4ac8-9f93-e45253cdd17b/">Full Stack Development</a></h2>
+            <div class="skills-lists"><h5>SQL, Python, Data Warehouse</h5></div>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum
+              eius fuga amet, reiciendis odio nam beatae quae quas recusandae
+              eos facere dignissimos omnis laborum?
+            </p>
+          </div> -->
+
+          <div class="skills-item">
+            <img src="image/ux.svg" alt="" />
+            <h2><a href="https://www.udemy.com/certificate/UC-3e7323a1-59c7-461e-a6ab-b08ec637d62a/">UI/UX - Figma, Webflow</a></h2>
+            <div class="skills-lists"><h5>Figma, Webflow, Color Theory & Selection, Layout understanding</h5></div>
+            <p>
+                I learned to design websites using Figma, build them with Webflow. I gained practical skills in creating modern web interfaces, from conceptualization to execution, and honed my ability to manage projects efficiently. Additionally, I developed an understanding of freelancing, including strategies for acquiring clients, managing projects, and setting competitive pricing to build a successful freelance career.
+            </p>
+          </div>
+          <!-- <div class="skills-item">
+            <img src="image/data_analytics.svg" alt="" />
+            <h2><a href="https://www.udemy.com/certificate/UC-3e7323a1-59c7-461e-a6ab-b08ec637d62a/">Data Analytics</a></h2>
+            <div class="skills-lists"><h5>SQL, Python, Data Warehouse</h5></div>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nostrum
+              eius fuga amet, reiciendis odio nam beatae quae quas recusandae
+              eos facere dignissimos omnis laborum?
+            </p>
+          </div> -->
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2 class="heading">Contact <span>Me</span></h2>
+      <form action="sendmail.php" method="POST">
+        <div class="input-group">
+          <div class="input-box">
+            <input type="text" placeholder="Full Name" />
+            <input type="email" placeholder="Email" />
+          </div>
+          <div class="input-box">
+            <input type="number" placeholder="Phone number" />
+            <input type="text" placeholder="Subject" />
+          </div>
+        </div>
+        <div class="input-group-2">
+          <textarea
+            name=""
+            id=""
+            cols="30"
+            rows="10"
+            placeholder="Your Message"
+          ></textarea>
+          <input type="submit" value="Send Message" class="btn" />
+        </div>
+      </form>
+    </section>
+
+    <footer class="footer">
+      <div class="social">
+        <a href="https://www.linkedin.com/in/rohini-ranjan/"
+          ><i class="bx bxl-linkedin"></i
+        ></a>
+        <a href="https://github.com/rohini-ranjanR"
+          ><i class="bx bxl-github"></i
+        ></a>
+        <a href="https://www.behance.net/rohiniranjan1"
+          ><i class="bx bxl-behance"></i
+        ></a>
+      </div>
+      <p class="copyright">© Rohini Ranjan | All Rights Reserved</p>
+    </footer>
+
+    <script src="portfolio.js"></script>
+  </body>
 </html>
