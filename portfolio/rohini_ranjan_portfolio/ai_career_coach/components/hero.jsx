@@ -1,25 +1,27 @@
 "use client";
 
-import React, { useEffect } from "react";
-import { Button } from "./ui/button";
-import Link from "next/link";
+import React, { useEffect, useRef } from "react";
 import Image from "next/image";
+import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 const HeroSection = () => {
-  const ImagRef = useRef(null);
+  const imageRef = useRef(null);
 
   useEffect(() => {
-    const ImageElement = imageRef.current;
+    const imageElement = imageRef.current;
+
     const handleScroll = () => {
       const scrollPosition = window.scrollY;
       const scrollThreshold = 100;
 
       if (scrollPosition > scrollThreshold) {
-        ImageElement.classList.add("scrolled");
+        imageElement.classList.add("scrolled");
       } else {
-        ImageElement.classList.remove("scrolled");
+        imageElement.classList.remove("scrolled");
       }
     };
+
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
@@ -28,41 +30,38 @@ const HeroSection = () => {
     <section className="w-full pt-36 md:pt-48 pb-10">
       <div className="space-y-6 text-center">
         <div className="space-y-6 mx-auto">
-          <h1 className="text-5xl font-bold ms:text-6xl lg:text-7xl xl:text-8xl gradient-title">
-            Your AI Career Coach for <br />
+          <h1 className="text-5xl font-bold md:text-6xl lg:text-7xl xl:text-8xl gradient-title animate-gradient">
+            Your AI Career Coach for
+            <br />
             Professional Success
           </h1>
           <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl">
-            Advance your career with personalized guidane, interview prep, and
+            Advance your career with personalized guidance, interview prep, and
             AI-powered tools for job success.
           </p>
         </div>
-        <div className="Flex justify-center space-x-4">
+        <div className="flex justify-center space-x-4">
           <Link href="/dashboard">
             <Button size="lg" className="px-8">
               Get Started
             </Button>
           </Link>
-
-          <Link href="/https://www.youtube.com/roadsidecoder">
-            <Button size="lg" className="px-8" variant="outline">
-              Get Started
+          <Link href="https://www.youtube.com/roadsidecoder">
+            <Button size="lg" variant="outline" className="px-8">
+              Watch Demo
             </Button>
           </Link>
         </div>
-
-        <div>
-          <div className="hero-image-wrapper mt-5 md:mt-0">
-            <div ref={ImageRef} className="hero-image">
-              <Image
-                src={"/banner.jpeg"}
-                width={1200}
-                height={720}
-                alt="Banner AI-Career-Coach"
-                className="rounded-lg shadow-2x1 border mx-auto"
-                priority
-              />
-            </div>
+        <div className="hero-image-wrapper mt-5 md:mt-0">
+          <div ref={imageRef} className="hero-image">
+            <Image
+              src={"/banner.jpeg"}
+              width={1280}
+              height={720}
+              alt="AI career coach banner"
+              className="rounded-lg shadow-2xl border mx-auto"
+              priority
+            />
           </div>
         </div>
       </div>
