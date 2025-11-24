@@ -224,7 +224,7 @@ span {
 }
 
 .text-animation span::before {
-    content: "Data Analyst";
+    content: "Full Stack";
     color: var(--main-color);
     animation: words 20s infinite;
 }
@@ -250,20 +250,20 @@ span {
 
     0%,
     20% {
-        content: "Data Analyst";
+        content: "Full Stack";
     }
 
     21%,
     40% {
-        content: "Quality Analyst";
+        content: "UI/UX";
     }
 
     41%,
     60% {
-        content: "Data Scientist";
+        content: "Data Science";
     }
 
-    61%,
+    /* 61%,
     80% {
         content: "Web Developer";
     }
@@ -271,7 +271,7 @@ span {
     81%,
     100% {
         content: "UI/UX Designer";
-    }
+    } */
 }
 
 @keyframes typing {
